@@ -1,6 +1,6 @@
 ---
 sidebar_position: 20
-sidebar_label: Deez
+sidebar_label: Some Label
 ---
 
 # Hello
