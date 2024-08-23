@@ -36,7 +36,7 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          editUrl: "https://github.com/KapiMC/kapi/",
+          editUrl: "https://github.com/kapicm/kapi/",
         },
         blog: {
           showReadingTime: true,
@@ -44,7 +44,7 @@ const config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl: "https://github.com/KapiMC/kapi/",
+          editUrl: "https://github.com/kapimc/kapi/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -60,12 +60,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // TODO: not sure where the card is visible
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/logo_dark_bg.png",
       navbar: {
-        title: "KapiMC2",
+        title: "Kapi",
         logo: {
-          alt: "My Site Logo",
+          alt: "Kapi Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -73,11 +74,12 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            image: "img/logo_dark_bg.png",
+            href: "https://github.com/kapimc/kapi",
             label: "GitHub",
             position: "right",
           },
@@ -90,7 +92,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Getting Started",
                 to: "/docs/intro",
               },
             ],
@@ -99,34 +101,30 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/3vcQNZA8zC",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Discussions",
+                href: "https://github.com/kapimc/kapi/discussions",
               },
             ],
           },
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/kapimc/kapi",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kyren223. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
