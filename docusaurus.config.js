@@ -12,7 +12,7 @@ const config = {
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
-  url: "https://kapimc.github.io/docs/",
+  url: "https://kapimc.github.io",
   baseUrl: "/docs/",
 
   // GitHub pages deployment config.
