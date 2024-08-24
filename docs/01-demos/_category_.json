@@ -1,8 +1,8 @@
 {
   "label": "Demos",
-  "position": 1,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
-    "title": "Demos & Examples",
+    "title": "Demos & Examples"
   }
 }

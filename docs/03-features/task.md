@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
-
-# ⏱Task Scheduling
+# Task Scheduling
 
 - **Related classes: `Task`, `TimeUnit`**
 
@@ -39,6 +35,7 @@ Task.run(() -> {
 ```
 
 Alternatively, you can specify a `TimeUnit`
+
 ```java
 int delayInHours = 2; // 2 hours
 Task.run(() -> {
@@ -51,6 +48,3 @@ Task.run(() -> {
 ### Duration
 
 ### Chaining modifiers
-
-
-
