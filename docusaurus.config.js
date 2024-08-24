@@ -131,7 +131,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ["groovy", "gradle"],
+        additionalLanguages: ["groovy", "gradle", "java"],
       },
     }),
 };
