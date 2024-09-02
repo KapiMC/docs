@@ -9,17 +9,18 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "KapiMC",
-  tagline: "Dinosaurs are cool",
+  tagline:
+    "A powerful, easy to use, and flexible plugin framework for Minecraft",
   favicon: "img/favicon.ico",
 
   url: "https://kapimc.github.io",
   baseUrl: "/docs/",
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   organizationName: "KapiMC",
   projectName: "docs",
   deploymentBranch: "gh-pages",
-  trailingSlash: false,
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -129,9 +130,13 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Kyren223. Built with Docusaurus.`,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: prismThemes.vsLight,
+        darkTheme: prismThemes.oceanicNext,
         additionalLanguages: ["groovy", "gradle", "java"],
+      },
+      colorMode: {
+        defaultMode: "dark",
+        respectPrefersColorScheme: true,
       },
     }),
 };
