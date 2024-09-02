@@ -63,9 +63,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // TODO: not sure where the card is visible
-      // Replace with your project's social card
-      image: "img/logo.svg",
+      image: "img/logo.png",
       navbar: {
         title: "Kapi",
         logo: {
