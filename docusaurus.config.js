@@ -65,7 +65,7 @@ const config = {
     ({
       // TODO: not sure where the card is visible
       // Replace with your project's social card
-      image: "img/logo_dark_bg.png",
+      image: "img/logo.svg",
       navbar: {
         title: "Kapi",
         logo: {
