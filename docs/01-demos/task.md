@@ -32,7 +32,7 @@ This is quite a bit of boilerplate to run a code snippet, can we do better? yes!
 Here's the exact same functionality with Kapi
 
 ```java
-Task.run(() -> {
+TaskBuilder.create(() -> {
     // My code
 }).delay(1, TimeUnit.HOURS).interval(5, TimeUnit.MINUTES).repeat(20).schedule();
 ```
