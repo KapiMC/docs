@@ -2,7 +2,7 @@
 slug: /
 ---
 
-# Installation
+# Adding Kapi as a dependency
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -22,11 +22,11 @@ repositories {
 }
 
 dependencies {
-    implementation("me.kyren223.kapi:[VERSION]")
+    implementation("io.github.kapimc:kapi:[VERSION]")
 }
 
 tasks.shadowJar {
-    relocate("me.kyren223.kapi", "[YOUR PACKAGE].kapi")
+    relocate("io.github.kapimc.kapi", "[YOUR PACKAGE].kapi")
 }
 ```
 
@@ -45,7 +45,7 @@ repositories {
 }
 
 dependencies {
-    implementation "me.kyren223.kapi:[VERSION]"
+    implementation "io.github.kapimc:kapi:[VERSION]"
 }
 
 // TODO: missing shadowJar, if you use groovy with gradle
@@ -61,7 +61,7 @@ Inside the `<dependencies>` tag.
 
 ```xml
 <dependency>
-    <groupId>me.kyren223</groupId>
+    <groupId>io.github.kapimc</groupId>
     <artifactId>kapi</artifactId>
     <version>[VERSION]</version>
 </dependency>
@@ -77,7 +77,7 @@ Inside the `<plugins>` tag.
     <configuration>
         <relocations>
             <relocation>
-                <pattern>dev.triumphteam.gui</pattern>
+                <pattern>io.github.kapimc.kapi</pattern>
                 <shadedPattern>[YOUR PACKAGE].kapi</shadedPattern>
             </relocation>
         </relocations>
@@ -96,5 +96,5 @@ Inside the `<plugins>` tag.
 </TabItem>
 </Tabs>
 
-Replace `[VERSION]` with the Kapi version you want to use.  
+Replace `[VERSION]` with the Kapi version you want to use, see [versions](https://github.com/kapimc/kapi/releases) for a list.  
 Replace `[YOUR PACKAGE]` with your own package, such as `me.kyren223.myplugin`
