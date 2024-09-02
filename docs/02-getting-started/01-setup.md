@@ -2,7 +2,9 @@
 slug: /
 ---
 
-# Adding Kapi as a dependency
+# Setup
+
+## Adding Kapi as a dependency
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -98,3 +100,29 @@ Inside the `<plugins>` tag.
 
 Replace `[VERSION]` with the Kapi version you want to use, see [versions](https://github.com/kapimc/kapi/releases) for a list.  
 Replace `[YOUR PACKAGE]` with your own package, such as `me.kyren223.myplugin`
+
+## Main Class
+
+**Replace `JavaPlugin` with `KapiPlugin`.**
+
+Make sure to implement the needed methods
+
+- `onPluginLoad()` - entry point of the plugin (similar to `onEnable()`).
+- `onPluginUnload()` - exit point of the plugin (similar to `onDisable()`).
+
+### Example
+
+```java
+public class MyPlugin extends KapiPlugin {
+
+    @Override
+    public void onPluginLoad() {
+        // Plugin Enabled
+    }
+
+    @Override
+    public void onPluginUnload() {
+        // Plugin Disabled
+    }
+}
+```
