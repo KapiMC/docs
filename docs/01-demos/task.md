@@ -27,7 +27,7 @@ taskId[0] = Bukkit.getScheduler().runTaskTimer(MyPlugin.getProvidingPlugin(MyPlu
 
 This is quite a bit of boilerplate to run a code snippet, can we do better? yes!
 
-# Kapi
+## Kapi
 
 Here's the exact same functionality with Kapi
 
