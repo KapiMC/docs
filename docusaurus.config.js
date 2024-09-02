@@ -75,13 +75,13 @@ const config = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
             position: "left",
             label: "Docs",
+            sidebarId: "tutorialSidebar",
           },
+          // { type: "docsVersionDropdown", position: "right", },
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            image: "img/logo_dark_bg.png",
             href: "https://github.com/kapimc/kapi",
             label: "GitHub",
             position: "right",
@@ -94,19 +94,15 @@ const config = {
           {
             title: "Docs",
             items: [
-              {
-                label: "Getting Started",
-                to: "/docs/intro",
-              },
+              { label: "Getting Started", to: "category/getting-started" },
+              { label: "Features", to: "category/features" },
+              { label: "Demos", to: "category/demos" },
             ],
           },
           {
             title: "Community",
             items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/3vcQNZA8zC",
-              },
+              { label: "Discord", href: "https://discord.gg/3vcQNZA8zC" },
               {
                 label: "Discussions",
                 href: "https://github.com/kapimc/kapi/discussions",
@@ -116,14 +112,9 @@ const config = {
           {
             title: "More",
             items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
-              {
-                label: "GitHub",
-                href: "https://github.com/kapimc/kapi",
-              },
+              // { label: "Blog", to: "/blog", },
+              { label: "GitHub", href: "https://github.com/kapimc/kapi" },
+              { label: "Show your support", href: "https://patreon.com/Kyren223" },
             ],
           },
         ],
