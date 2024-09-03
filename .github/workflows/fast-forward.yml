@@ -24,3 +24,5 @@ jobs:
           # never post a comment.  (In all cases the information is
           # still available in the step's summary.)
           comment: always
+        env:
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_PAT }}
