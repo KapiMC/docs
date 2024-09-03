@@ -153,7 +153,7 @@ TaskBuilder.create(() -> {
 
 :::warning
 
-Calling `schedule()` on a task **with a stopping condition** but **without an interval**
+Calling `schedule()` on a task **with a stopping condition** and **without an interval**
 will automatically set the interval to 1 tick (will run 20 times per seconds)
 
 :::
