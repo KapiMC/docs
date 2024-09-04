@@ -14,7 +14,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   url: "https://kapimc.github.io",
-  baseUrl: "/docs/",
+  baseUrl: "/",
   trailingSlash: false,
 
   // GitHub pages deployment config.
@@ -36,9 +36,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: "/",
+          routeBasePath: "/docs/",
           sidebarPath: "./sidebars.js",
-          editUrl: "https://github.com/kapicm/kapi/",
+          editUrl: "https://github.com/kapimc/docs/",
         },
         blog: false,
         // blog: {
