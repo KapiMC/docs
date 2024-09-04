@@ -79,6 +79,8 @@ const config = {
           },
           // { type: "docsVersionDropdown", position: "right", },
           // { to: "/blog", label: "Blog", position: "left" },
+          { to: "/faq", label: "FAQ", position: "left" },
+          { to: "/planned-features", label: "Planned Features", position: "left" },
           {
             href: "https://github.com/kapimc/kapi",
             label: "GitHub",
