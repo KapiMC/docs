@@ -4,7 +4,7 @@ description: Frequently Asked Question
 hide_table_of_contents: true
 ---
 
-<div style={{ width: '50%', margin: '0 auto' }}>
+<div style={{ width: '60%', margin: '0 auto' }}>
 
 <div align="center">
 # Frequently Asked Questions
