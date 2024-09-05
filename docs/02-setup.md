@@ -4,13 +4,6 @@ slug: /
 
 # Setup
 
-:::warning
-
-Kapi is in early development stages, the public interface of the API may change drastically.  
-Future versions may introduce breaking changes.
-
-:::
-
 ## Adding Kapi as a dependency
 
 import Tabs from '@theme/Tabs';
