@@ -80,7 +80,11 @@ const config = {
           },
           { to: "/faq", label: "FAQ", position: "left" },
           { to: "/changelog", label: "Changelog", position: "left" },
-          { to: "/planned-features", label: "Planned Features", position: "left" },
+          {
+            to: "/planned-features",
+            label: "Planned Features",
+            position: "left",
+          },
           // { to: "/blog", label: "Blog", position: "left" },
 
           // { type: "docsVersionDropdown", position: "right", },
@@ -117,7 +121,10 @@ const config = {
             items: [
               // { label: "Blog", to: "/blog", },
               { label: "GitHub", href: "https://github.com/kapimc/kapi" },
-              { label: "Show your support", href: "https://patreon.com/Kyren223" },
+              {
+                label: "Show your support",
+                href: "https://patreon.com/Kyren223",
+              },
             ],
           },
         ],
@@ -131,6 +138,14 @@ const config = {
       colorMode: {
         defaultMode: "dark",
         respectPrefersColorScheme: true,
+      },
+      algolia: {
+        appId: "N58KIY3ZTQ",
+        apiKey: "646377baaab71b38f874a0280bebf7bf",
+        indexName: "kapimcio",
+
+        contextualSearch: true,
+        insights: true,
       },
     }),
 };
