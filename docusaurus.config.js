@@ -72,15 +72,18 @@ const config = {
         },
         items: [
           {
-            type: "docSidebar",
-            position: "left",
+            // type: "docSidebar",
+            // sidebarId: "docsSidebar",
+            to: "/",
             label: "Docs",
-            sidebarId: "tutorialSidebar",
+            position: "left",
           },
-          // { type: "docsVersionDropdown", position: "right", },
-          // { to: "/blog", label: "Blog", position: "left" },
           { to: "/faq", label: "FAQ", position: "left" },
+          { to: "/changelog", label: "Changelog", position: "left" },
           { to: "/planned-features", label: "Planned Features", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
+
+          // { type: "docsVersionDropdown", position: "right", },
           {
             href: "https://github.com/kapimc/kapi",
             label: "GitHub",
