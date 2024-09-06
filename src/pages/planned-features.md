@@ -33,4 +33,12 @@ public static int someValueLikeApercentage;
 
 This aim's to provide some built-in templates like circles, squares, lines, etc that will have functionality for auto-scaling based, althoughit's very simple to create these yourself, having them built-in will ease the process and save boilerplate
 
+### Custom Items Builder
+
+A way to create custom items, easily setting things like display name, lore, material, persistent data (NBT/components).
+But also providing more complex functionality such as onRightClick, onLeftClick etc.
+Also things like `#unique()` which will add a way to uniquely identify an item.
+Will also have ways to register recipes and other utilities.
+The plan is to start small with this system and add to it more functionality in each update.
+
 </div>
