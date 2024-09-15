@@ -101,7 +101,7 @@ const config = {
           {
             title: "Docs",
             items: [
-              { label: "Getting Started", to: "category/getting-started" },
+              { label: "Getting Started", to: "getting-started/first-plugin" },
               { label: "Features", to: "category/features" },
               { label: "Demos", to: "category/demos" },
             ],
