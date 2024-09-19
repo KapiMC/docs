@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 Add the dependency to your `build.gradle.kts` file.
 
-```kts
+```kotlin
 plugins {
     id("io.github.goooler.shadow") version "8.1.8"
 }
