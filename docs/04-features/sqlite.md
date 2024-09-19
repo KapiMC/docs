@@ -1,6 +1,6 @@
 # File-based SQL Database
 
-- **Related: `SqliteDB`, `SqlQuery`, `QueryBuilder` **
+- **Related: `SqliteDB`, `SqlQuery`, `QueryBuilder`**
 
 Usually in Minecraft, it's common to use YAML config files to store
 data persistently between restarts, and while it works,
