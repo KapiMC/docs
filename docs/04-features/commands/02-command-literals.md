@@ -3,6 +3,7 @@
 - **Related: `@Literal`, `@SubCommand`, `Command`**
 
 Literals are a way to gurantee a user has typed something, for example:
+
 - `/kapi add <number>`
 - `/kapi remove <number>`
 
@@ -28,7 +29,3 @@ public class KapiCommand extends Command {
 By default a literal is case insensitive and has no aliases.
 You may tweak the `@Literal` annotation to make it case sensitive,
 or add additional aliases.
-
-
-
-
