@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     this allows users to create their own parsers for their own custom types.
   - Built-in argument parsers for primitives, any enums, arrays, `List<T>`, `Option<T>`, `Location` and `Player`.
   - Automatic reporting of possible subcommands to the user if no subcommands match.
+- `SqliteDB` to manage file-based Sqlite databases and `QueryBuilder` to ease the process of creating `SqlQuery`.
 
 ### Deprecated
 
